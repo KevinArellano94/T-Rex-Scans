@@ -29,28 +29,28 @@
 			<h2>Contact Page</h2>
 			<p>Please fill out the text boxes below and you will be reached out shortly after:</p>
 		</div>
-		
-		<form name='contact' method='POST'><input type='hidden' name='form-inquiry' value='inquires' />
-			<p>
-				<label>Your Name: <input type="text" name="name" /></label>   
-			</p>
-			<p>
-				<label>Your Email: <input type="email" name="email" /></label>
-			</p>
-			<p>
-				<label>Your Role: <select name="category[]" multiple>
-					<option value="technical">Technical</option>
-					<option value="job">Job</option>
-				</select>
-				</label>
-			</p>
-			<p>
-				<label>Message: <textarea name="message"></textarea></label>
-			</p>
-			<p>
-				<button type="submit">Send</button>
-			</p>
-		</form>
-		
+		<div class="container">
+			<form name='contact' method='POST'><input type='hidden' name='form-inquiry' value='inquires' />
+				<p>
+					<label>Your Name: <input type="text" name="name" /></label>   
+				</p>
+				<p>
+					<label>Your Email: <input type="email" name="email" /></label>
+				</p>
+				<p>
+					<label>Your Role: <select name="category[]" multiple>
+						<option value="technical">Technical</option>
+						<option value="job">Job</option>
+					</select>
+					</label>
+				</p>
+				<p>
+					<label>Message: <textarea name="message"></textarea></label>
+				</p>
+				<p>
+					<button type="submit">Send</button>
+				</p>
+			</form>
+		</div>		
 	</body>
 </html>
