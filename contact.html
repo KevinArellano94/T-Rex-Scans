@@ -30,23 +30,12 @@
 			<p>Please fill out the text boxes below and you will be reached out shortly after:</p>
 		</div>
 		<div class="container">
-			<form name='inquiries' method='POST' netlify>
-				<input type='hidden' name='form-name' value='inquiry' />
+			<form name="contact" netlify>
 				<p>
-					<label>Your Name: <input type="text" name="name" /></label>   
+					<label>Name <input type="text" name="name" /></label>
 				</p>
 				<p>
-					<label>Your Email: <input type="email" name="email" /></label>
-				</p>
-				<p>
-					<label>Inquiry Category: <select name="category[]" multiple>
-						<option value="technical">Technical</option>
-						<option value="job">Job</option>
-					</select>
-					</label>
-				</p>
-				<p>
-					<label>Message: <textarea name="message"></textarea></label>
+					<label>Email <input type="email" name="email" /></label>
 				</p>
 				<p>
 					<button type="submit">Send</button>
